@@ -1,0 +1,75 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');  */
+@import "./fonts.css";
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css */
+
+/*
+[dir="rtl"]  *{
+  @apply font-tajawal;
+}
+*/
+
+* {
+  text-transform: capitalize;
+}
+
+.anticon-calendar {
+  @apply text-lg;
+}
+
+.ant-select-suffix {
+  @apply text-[1rem];
+}
+
+.ant-select .ring-transparent .ant-select-show-search {
+  @apply !outline-0 !ring-0;
+}
+
+p + p {
+  margin-top: 0 !important;
+}
+
+
+
+
+/* mui classes **/
+
+.css-1ew92b2-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color:#4d2b7c !important ;
+}
+
+.css-5h82ro-MuiInputBase-root-MuiInput-root::after
+{  border-bottom: 2px solid #50178b  !important}
+
+.css-5h82ro-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before 
+{border-bottom: 2px solid #50178b !important}
+
+.css-1ew92b2-MuiFormLabel-root-MuiInputLabel-root.Mui-focused 
+{color : #50178b !important}
+
+
+
+/*text editor */
+.ql-toolbar.ql-snow {
+ border:  2px solid #4c1389 ;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.ql-snow .ql-stroke
+{
+  stroke: #50178b ;
+}
+
+
+
+.ql-snow.ql-container {
+  border: 2px solid #50178b;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
