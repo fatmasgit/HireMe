@@ -1,0 +1,10 @@
+.vercel
+
+
+# Ignore node_modules
+/node_modules
+
+# Other typical entries
+.DS_Store
+.env
+*.log
